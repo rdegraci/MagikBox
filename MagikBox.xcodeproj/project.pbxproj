@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3B516031970259300E831E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516021970259300E831E5 /* Foundation.framework */; };
+		B3B516051970259300E831E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516041970259300E831E5 /* CoreGraphics.framework */; };
+		B3B516071970259300E831E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516061970259300E831E5 /* UIKit.framework */; };
+		B3B516091970259300E831E5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516081970259300E831E5 /* CoreData.framework */; };
+		B3B5160F1970259300E831E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3B5160D1970259300E831E5 /* InfoPlist.strings */; };
+		B3B516111970259300E831E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B516101970259300E831E5 /* main.m */; };
+		B3B516151970259300E831E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B516141970259300E831E5 /* AppDelegate.m */; };
+		B3B516181970259400E831E5 /* MagikBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3B516161970259400E831E5 /* MagikBox.xcdatamodeld */; };
+		B3B5161A1970259400E831E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B516191970259400E831E5 /* Images.xcassets */; };
+		B3B516211970259400E831E5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516201970259400E831E5 /* XCTest.framework */; };
+		B3B516221970259400E831E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516021970259300E831E5 /* Foundation.framework */; };
+		B3B516231970259400E831E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516061970259300E831E5 /* UIKit.framework */; };
+		B3B516241970259400E831E5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516081970259300E831E5 /* CoreData.framework */; };
+		B3B5162C1970259400E831E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3B5162A1970259400E831E5 /* InfoPlist.strings */; };
+		B3B5162E1970259400E831E5 /* MagikBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B5162D1970259400E831E5 /* MagikBoxTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3B516251970259400E831E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3B515F71970259300E831E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3B515FE1970259300E831E5;
+			remoteInfo = MagikBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3B515FF1970259300E831E5 /* MagikBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagikBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B516021970259300E831E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3B516041970259300E831E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3B516061970259300E831E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3B516081970259300E831E5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B3B5160C1970259300E831E5 /* MagikBox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagikBox-Info.plist"; sourceTree = "<group>"; };
+		B3B5160E1970259300E831E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3B516101970259300E831E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3B516121970259300E831E5 /* MagikBox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagikBox-Prefix.pch"; sourceTree = "<group>"; };
+		B3B516131970259300E831E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3B516141970259300E831E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3B516171970259400E831E5 /* MagikBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MagikBox.xcdatamodel; sourceTree = "<group>"; };
+		B3B516191970259400E831E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3B5161F1970259400E831E5 /* MagikBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagikBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B516201970259400E831E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B3B516291970259400E831E5 /* MagikBoxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagikBoxTests-Info.plist"; sourceTree = "<group>"; };
+		B3B5162B1970259400E831E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3B5162D1970259400E831E5 /* MagikBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagikBoxTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3B515FC1970259300E831E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B516051970259300E831E5 /* CoreGraphics.framework in Frameworks */,
+				B3B516091970259300E831E5 /* CoreData.framework in Frameworks */,
+				B3B516071970259300E831E5 /* UIKit.framework in Frameworks */,
+				B3B516031970259300E831E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B5161C1970259400E831E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B516211970259400E831E5 /* XCTest.framework in Frameworks */,
+				B3B516241970259400E831E5 /* CoreData.framework in Frameworks */,
+				B3B516231970259400E831E5 /* UIKit.framework in Frameworks */,
+				B3B516221970259400E831E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3B515F61970259300E831E5 = {
+			isa = PBXGroup;
+			children = (
+				B3B5160A1970259300E831E5 /* MagikBox */,
+				B3B516271970259400E831E5 /* MagikBoxTests */,
+				B3B516011970259300E831E5 /* Frameworks */,
+				B3B516001970259300E831E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3B516001970259300E831E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3B515FF1970259300E831E5 /* MagikBox.app */,
+				B3B5161F1970259400E831E5 /* MagikBoxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3B516011970259300E831E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3B516021970259300E831E5 /* Foundation.framework */,
+				B3B516041970259300E831E5 /* CoreGraphics.framework */,
+				B3B516061970259300E831E5 /* UIKit.framework */,
+				B3B516081970259300E831E5 /* CoreData.framework */,
+				B3B516201970259400E831E5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3B5160A1970259300E831E5 /* MagikBox */ = {
+			isa = PBXGroup;
+			children = (
+				B3B516131970259300E831E5 /* AppDelegate.h */,
+				B3B516141970259300E831E5 /* AppDelegate.m */,
+				B3B516191970259400E831E5 /* Images.xcassets */,
+				B3B516161970259400E831E5 /* MagikBox.xcdatamodeld */,
+				B3B5160B1970259300E831E5 /* Supporting Files */,
+			);
+			path = MagikBox;
+			sourceTree = "<group>";
+		};
+		B3B5160B1970259300E831E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3B5160C1970259300E831E5 /* MagikBox-Info.plist */,
+				B3B5160D1970259300E831E5 /* InfoPlist.strings */,
+				B3B516101970259300E831E5 /* main.m */,
+				B3B516121970259300E831E5 /* MagikBox-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3B516271970259400E831E5 /* MagikBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3B5162D1970259400E831E5 /* MagikBoxTests.m */,
+				B3B516281970259400E831E5 /* Supporting Files */,
+			);
+			path = MagikBoxTests;
+			sourceTree = "<group>";
+		};
+		B3B516281970259400E831E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3B516291970259400E831E5 /* MagikBoxTests-Info.plist */,
+				B3B5162A1970259400E831E5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3B515FE1970259300E831E5 /* MagikBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3B516311970259400E831E5 /* Build configuration list for PBXNativeTarget "MagikBox" */;
+			buildPhases = (
+				B3B515FB1970259300E831E5 /* Sources */,
+				B3B515FC1970259300E831E5 /* Frameworks */,
+				B3B515FD1970259300E831E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagikBox;
+			productName = MagikBox;
+			productReference = B3B515FF1970259300E831E5 /* MagikBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3B5161E1970259400E831E5 /* MagikBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3B516341970259400E831E5 /* Build configuration list for PBXNativeTarget "MagikBoxTests" */;
+			buildPhases = (
+				B3B5161B1970259400E831E5 /* Sources */,
+				B3B5161C1970259400E831E5 /* Frameworks */,
+				B3B5161D1970259400E831E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3B516261970259400E831E5 /* PBXTargetDependency */,
+			);
+			name = MagikBoxTests;
+			productName = MagikBoxTests;
+			productReference = B3B5161F1970259400E831E5 /* MagikBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3B515F71970259300E831E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Venture Intellectual LLC";
+				TargetAttributes = {
+					B3B5161E1970259400E831E5 = {
+						TestTargetID = B3B515FE1970259300E831E5;
+					};
+				};
+			};
+			buildConfigurationList = B3B515FA1970259300E831E5 /* Build configuration list for PBXProject "MagikBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3B515F61970259300E831E5;
+			productRefGroup = B3B516001970259300E831E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3B515FE1970259300E831E5 /* MagikBox */,
+				B3B5161E1970259400E831E5 /* MagikBoxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3B515FD1970259300E831E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B5160F1970259300E831E5 /* InfoPlist.strings in Resources */,
+				B3B5161A1970259400E831E5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B5161D1970259400E831E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B5162C1970259400E831E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3B515FB1970259300E831E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B516151970259300E831E5 /* AppDelegate.m in Sources */,
+				B3B516111970259300E831E5 /* main.m in Sources */,
+				B3B516181970259400E831E5 /* MagikBox.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B5161B1970259400E831E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B5162E1970259400E831E5 /* MagikBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3B516261970259400E831E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3B515FE1970259300E831E5 /* MagikBox */;
+			targetProxy = B3B516251970259400E831E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3B5160D1970259300E831E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3B5160E1970259300E831E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3B5162A1970259400E831E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3B5162B1970259400E831E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3B5162F1970259400E831E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3B516301970259400E831E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3B516321970259400E831E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagikBox/MagikBox-Prefix.pch";
+				INFOPLIST_FILE = "MagikBox/MagikBox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3B516331970259400E831E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagikBox/MagikBox-Prefix.pch";
+				INFOPLIST_FILE = "MagikBox/MagikBox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B3B516351970259400E831E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MagikBox.app/MagikBox";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagikBox/MagikBox-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MagikBoxTests/MagikBoxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B3B516361970259400E831E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MagikBox.app/MagikBox";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagikBox/MagikBox-Prefix.pch";
+				INFOPLIST_FILE = "MagikBoxTests/MagikBoxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3B515FA1970259300E831E5 /* Build configuration list for PBXProject "MagikBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B5162F1970259400E831E5 /* Debug */,
+				B3B516301970259400E831E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3B516311970259400E831E5 /* Build configuration list for PBXNativeTarget "MagikBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B516321970259400E831E5 /* Debug */,
+				B3B516331970259400E831E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3B516341970259400E831E5 /* Build configuration list for PBXNativeTarget "MagikBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B516351970259400E831E5 /* Debug */,
+				B3B516361970259400E831E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B3B516161970259400E831E5 /* MagikBox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B3B516171970259400E831E5 /* MagikBox.xcdatamodel */,
+			);
+			currentVersion = B3B516171970259400E831E5 /* MagikBox.xcdatamodel */;
+			path = MagikBox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B3B515F71970259300E831E5 /* Project object */;
+}
