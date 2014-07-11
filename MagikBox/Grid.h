@@ -10,4 +10,7 @@
 
 @interface Grid : NSObject
 
+@property (nonatomic, strong) NSNumber* rows;
+@property (nonatomic, strong) NSNumber* columns;
+
 @end

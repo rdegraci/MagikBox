@@ -7,8 +7,11 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "Grid.h"
 
 @interface GridTest : XCTestCase
+
+@property (nonatomic, strong) Grid* grid;
 
 @end
 
@@ -17,7 +20,7 @@
 - (void)setUp
 {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    self.grid = [[Grid alloc] init];
 }
 
 - (void)tearDown
@@ -28,7 +31,16 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    // UXCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+}
+
+
+- (void)testShouldHaveRows {
+    self.grid.rows = @5;
+}
+
+- (void)testShouldHaveColumns {
+    self.grid.columns = @9;
 }
 
 @end
