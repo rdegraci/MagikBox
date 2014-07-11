@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B35B4A0D1970AB5700000DE1 /* grid.plist in Resources */ = {isa = PBXBuildFile; fileRef = B35B4A0C1970AB5700000DE1 /* grid.plist */; };
+		B35B4A0E1970AB6000000DE1 /* grid.plist in Resources */ = {isa = PBXBuildFile; fileRef = B35B4A0C1970AB5700000DE1 /* grid.plist */; };
+		B35B4A101970ABD600000DE1 /* GridTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A0F1970ABD600000DE1 /* GridTest.m */; };
+		B35B4A131970AC0E00000DE1 /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A121970AC0E00000DE1 /* Grid.m */; };
+		B35B4A141970AC0E00000DE1 /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A121970AC0E00000DE1 /* Grid.m */; };
 		B3B516031970259300E831E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516021970259300E831E5 /* Foundation.framework */; };
 		B3B516051970259300E831E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516041970259300E831E5 /* CoreGraphics.framework */; };
 		B3B516071970259300E831E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516061970259300E831E5 /* UIKit.framework */; };
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B35B4A0C1970AB5700000DE1 /* grid.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = grid.plist; sourceTree = "<group>"; };
+		B35B4A0F1970ABD600000DE1 /* GridTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridTest.m; sourceTree = "<group>"; };
+		B35B4A111970AC0E00000DE1 /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
+		B35B4A121970AC0E00000DE1 /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
 		B3B515FF1970259300E831E5 /* MagikBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagikBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B516021970259300E831E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3B516041970259300E831E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -81,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B35B4A0B1970AB2400000DE1 /* conf */ = {
+			isa = PBXGroup;
+			children = (
+				B35B4A0C1970AB5700000DE1 /* grid.plist */,
+			);
+			name = conf;
+			sourceTree = "<group>";
+		};
 		B3B515F61970259300E831E5 = {
 			isa = PBXGroup;
 			children = (
@@ -115,11 +132,14 @@
 		B3B5160A1970259300E831E5 /* MagikBox */ = {
 			isa = PBXGroup;
 			children = (
+				B35B4A0B1970AB2400000DE1 /* conf */,
 				B3B516131970259300E831E5 /* AppDelegate.h */,
 				B3B516141970259300E831E5 /* AppDelegate.m */,
 				B3B516191970259400E831E5 /* Images.xcassets */,
 				B3B516161970259400E831E5 /* MagikBox.xcdatamodeld */,
 				B3B5160B1970259300E831E5 /* Supporting Files */,
+				B35B4A111970AC0E00000DE1 /* Grid.h */,
+				B35B4A121970AC0E00000DE1 /* Grid.m */,
 			);
 			path = MagikBox;
 			sourceTree = "<group>";
@@ -140,6 +160,7 @@
 			children = (
 				B3B5162D1970259400E831E5 /* MagikBoxTests.m */,
 				B3B516281970259400E831E5 /* Supporting Files */,
+				B35B4A0F1970ABD600000DE1 /* GridTest.m */,
 			);
 			path = MagikBoxTests;
 			sourceTree = "<group>";
@@ -229,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3B5160F1970259300E831E5 /* InfoPlist.strings in Resources */,
+				B35B4A0D1970AB5700000DE1 /* grid.plist in Resources */,
 				B3B5161A1970259400E831E5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B35B4A0E1970AB6000000DE1 /* grid.plist in Resources */,
 				B3B5162C1970259400E831E5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +274,7 @@
 				B3B516151970259300E831E5 /* AppDelegate.m in Sources */,
 				B3B516111970259300E831E5 /* main.m in Sources */,
 				B3B516181970259400E831E5 /* MagikBox.xcdatamodeld in Sources */,
+				B35B4A131970AC0E00000DE1 /* Grid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3B5162E1970259400E831E5 /* MagikBoxTests.m in Sources */,
+				B35B4A141970AC0E00000DE1 /* Grid.m in Sources */,
+				B35B4A101970ABD600000DE1 /* GridTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +475,7 @@
 				B3B516331970259400E831E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3B516341970259400E831E5 /* Build configuration list for PBXNativeTarget "MagikBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +484,7 @@
 				B3B516361970259400E831E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
