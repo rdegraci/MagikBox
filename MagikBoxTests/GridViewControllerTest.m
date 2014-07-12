@@ -7,8 +7,12 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "GridViewController.h"
+#import "Grid.h"
 
 @interface GridViewControllerTest : XCTestCase
+
+@property (nonatomic, strong) GridViewController* gridViewController;
 
 @end
 
@@ -17,7 +21,7 @@
 - (void)setUp
 {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    self.gridViewController = [[GridViewController alloc] init];
 }
 
 - (void)tearDown
@@ -26,9 +30,10 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+
+- (void)testShouldHaveGrid {
+    self.gridViewController.grid = [[Grid alloc] init];
 }
+
 
 @end

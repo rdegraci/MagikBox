@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class Grid;
+
 @interface GridViewController : UIViewController
+
+@property (nonatomic, strong) Grid* grid;
+
+
+- (void)assertValid;
 
 @end

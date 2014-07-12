@@ -7,6 +7,7 @@
 //
 
 #import "GridViewController.h"
+#import "Grid.h"
 
 @interface GridViewController ()
 
@@ -18,7 +19,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        self.grid = [[Grid alloc] init];
     }
     return self;
 }
@@ -26,7 +27,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.grid = [[Grid alloc] init];
+    
+    [self assertValid];
 }
 
 - (void)didReceiveMemoryWarning
@@ -46,4 +49,8 @@
 }
 */
 
+
+- (void)assertValid {
+    NSAssert(self.grid != nil, @"self.grid should not be nil");
+}
 @end
