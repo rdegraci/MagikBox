@@ -10,10 +10,10 @@
 
 @class Grid;
 
-@interface GridViewController : UIViewController
+@interface GridViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
 
 @property (nonatomic, strong) Grid* grid;
-
+@property (nonatomic, strong) IBOutlet UICollectionView* collectionView;
 
 - (void)assertValid;
 

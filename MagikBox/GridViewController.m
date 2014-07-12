@@ -8,6 +8,7 @@
 
 #import "GridViewController.h"
 #import "Grid.h"
+#import "GridCollectionViewCell.h"
 
 @interface GridViewController ()
 
@@ -52,5 +53,20 @@
 
 - (void)assertValid {
     NSAssert(self.grid != nil, @"self.grid should not be nil");
+    NSAssert(self.collectionView != nil, @"collectionView should not be nil");
 }
+
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return 0;
+}
+
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+
+    GridCollectionViewCell* cell = (GridCollectionViewCell*)[collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([GridCollectionViewCell class]) forIndexPath:indexPath];
+    
+    return cell;
+}
+
 @end

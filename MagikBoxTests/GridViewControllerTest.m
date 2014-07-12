@@ -36,4 +36,9 @@
 }
 
 
+- (void)testShouldHaveCollectionView {
+    self.gridViewController.collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:[[UICollectionViewLayout alloc] init]];
+}
+
+
 @end
