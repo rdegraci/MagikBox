@@ -12,6 +12,12 @@
 		B35B4A101970ABD600000DE1 /* GridTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A0F1970ABD600000DE1 /* GridTest.m */; };
 		B35B4A131970AC0E00000DE1 /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A121970AC0E00000DE1 /* Grid.m */; };
 		B35B4A141970AC0E00000DE1 /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A121970AC0E00000DE1 /* Grid.m */; };
+		B35B4A161970AD7C00000DE1 /* GridCollectionViewCellTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A151970AD7C00000DE1 /* GridCollectionViewCellTest.m */; };
+		B35B4A191970AEA500000DE1 /* GridCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A181970AEA500000DE1 /* GridCollectionViewCell.m */; };
+		B35B4A1A1970AEA500000DE1 /* GridCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A181970AEA500000DE1 /* GridCollectionViewCell.m */; };
+		B35B4A1C1970AF4100000DE1 /* GridViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A1B1970AF4100000DE1 /* GridViewControllerTest.m */; };
+		B35B4A1F1970B54100000DE1 /* GridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A1E1970B54100000DE1 /* GridViewController.m */; };
+		B35B4A201970B54100000DE1 /* GridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A1E1970B54100000DE1 /* GridViewController.m */; };
 		B3B516031970259300E831E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516021970259300E831E5 /* Foundation.framework */; };
 		B3B516051970259300E831E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516041970259300E831E5 /* CoreGraphics.framework */; };
 		B3B516071970259300E831E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516061970259300E831E5 /* UIKit.framework */; };
@@ -44,6 +50,12 @@
 		B35B4A0F1970ABD600000DE1 /* GridTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridTest.m; sourceTree = "<group>"; };
 		B35B4A111970AC0E00000DE1 /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
 		B35B4A121970AC0E00000DE1 /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
+		B35B4A151970AD7C00000DE1 /* GridCollectionViewCellTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridCollectionViewCellTest.m; sourceTree = "<group>"; };
+		B35B4A171970AEA500000DE1 /* GridCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridCollectionViewCell.h; sourceTree = "<group>"; };
+		B35B4A181970AEA500000DE1 /* GridCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridCollectionViewCell.m; sourceTree = "<group>"; };
+		B35B4A1B1970AF4100000DE1 /* GridViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridViewControllerTest.m; sourceTree = "<group>"; };
+		B35B4A1D1970B54100000DE1 /* GridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridViewController.h; sourceTree = "<group>"; };
+		B35B4A1E1970B54100000DE1 /* GridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridViewController.m; sourceTree = "<group>"; };
 		B3B515FF1970259300E831E5 /* MagikBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagikBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B516021970259300E831E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3B516041970259300E831E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -140,6 +152,10 @@
 				B3B5160B1970259300E831E5 /* Supporting Files */,
 				B35B4A111970AC0E00000DE1 /* Grid.h */,
 				B35B4A121970AC0E00000DE1 /* Grid.m */,
+				B35B4A171970AEA500000DE1 /* GridCollectionViewCell.h */,
+				B35B4A181970AEA500000DE1 /* GridCollectionViewCell.m */,
+				B35B4A1D1970B54100000DE1 /* GridViewController.h */,
+				B35B4A1E1970B54100000DE1 /* GridViewController.m */,
 			);
 			path = MagikBox;
 			sourceTree = "<group>";
@@ -161,6 +177,8 @@
 				B3B5162D1970259400E831E5 /* MagikBoxTests.m */,
 				B3B516281970259400E831E5 /* Supporting Files */,
 				B35B4A0F1970ABD600000DE1 /* GridTest.m */,
+				B35B4A151970AD7C00000DE1 /* GridCollectionViewCellTest.m */,
+				B35B4A1B1970AF4100000DE1 /* GridViewControllerTest.m */,
 			);
 			path = MagikBoxTests;
 			sourceTree = "<group>";
@@ -271,9 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B35B4A191970AEA500000DE1 /* GridCollectionViewCell.m in Sources */,
 				B3B516151970259300E831E5 /* AppDelegate.m in Sources */,
 				B3B516111970259300E831E5 /* main.m in Sources */,
 				B3B516181970259400E831E5 /* MagikBox.xcdatamodeld in Sources */,
+				B35B4A1F1970B54100000DE1 /* GridViewController.m in Sources */,
 				B35B4A131970AC0E00000DE1 /* Grid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,8 +302,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B35B4A1A1970AEA500000DE1 /* GridCollectionViewCell.m in Sources */,
+				B35B4A161970AD7C00000DE1 /* GridCollectionViewCellTest.m in Sources */,
 				B3B5162E1970259400E831E5 /* MagikBoxTests.m in Sources */,
+				B35B4A201970B54100000DE1 /* GridViewController.m in Sources */,
 				B35B4A141970AC0E00000DE1 /* Grid.m in Sources */,
+				B35B4A1C1970AF4100000DE1 /* GridViewControllerTest.m in Sources */,
 				B35B4A101970ABD600000DE1 /* GridTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
