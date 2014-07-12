@@ -18,6 +18,8 @@
 		B35B4A1C1970AF4100000DE1 /* GridViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A1B1970AF4100000DE1 /* GridViewControllerTest.m */; };
 		B35B4A1F1970B54100000DE1 /* GridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A1E1970B54100000DE1 /* GridViewController.m */; };
 		B35B4A201970B54100000DE1 /* GridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A1E1970B54100000DE1 /* GridViewController.m */; };
+		B35B4A221970C0A000000DE1 /* IPad_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35B4A211970C0A000000DE1 /* IPad_Storyboard.storyboard */; };
+		B35B4A231970C0A000000DE1 /* IPad_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35B4A211970C0A000000DE1 /* IPad_Storyboard.storyboard */; };
 		B3B516031970259300E831E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516021970259300E831E5 /* Foundation.framework */; };
 		B3B516051970259300E831E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516041970259300E831E5 /* CoreGraphics.framework */; };
 		B3B516071970259300E831E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516061970259300E831E5 /* UIKit.framework */; };
@@ -56,6 +58,7 @@
 		B35B4A1B1970AF4100000DE1 /* GridViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridViewControllerTest.m; sourceTree = "<group>"; };
 		B35B4A1D1970B54100000DE1 /* GridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridViewController.h; sourceTree = "<group>"; };
 		B35B4A1E1970B54100000DE1 /* GridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridViewController.m; sourceTree = "<group>"; };
+		B35B4A211970C0A000000DE1 /* IPad_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IPad_Storyboard.storyboard; sourceTree = "<group>"; };
 		B3B515FF1970259300E831E5 /* MagikBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagikBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B516021970259300E831E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3B516041970259300E831E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -156,6 +159,7 @@
 				B35B4A181970AEA500000DE1 /* GridCollectionViewCell.m */,
 				B35B4A1D1970B54100000DE1 /* GridViewController.h */,
 				B35B4A1E1970B54100000DE1 /* GridViewController.m */,
+				B35B4A211970C0A000000DE1 /* IPad_Storyboard.storyboard */,
 			);
 			path = MagikBox;
 			sourceTree = "<group>";
@@ -270,6 +274,7 @@
 				B3B5160F1970259300E831E5 /* InfoPlist.strings in Resources */,
 				B35B4A0D1970AB5700000DE1 /* grid.plist in Resources */,
 				B3B5161A1970259400E831E5 /* Images.xcassets in Resources */,
+				B35B4A221970C0A000000DE1 /* IPad_Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B35B4A0E1970AB6000000DE1 /* grid.plist in Resources */,
+				B35B4A231970C0A000000DE1 /* IPad_Storyboard.storyboard in Resources */,
 				B3B5162C1970259400E831E5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
