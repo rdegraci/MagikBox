@@ -10,9 +10,9 @@
 
 @class GridRow;
 
-@interface GridRowView : UIView
+@interface GridRowView : UIView 
 
-@property (nonatomic, strong) UICollectionView* collectionView;
+@property (nonatomic, strong) IBOutlet UICollectionView* collectionView;
 @property (nonatomic, strong) GridRow* gridRow;
 
 - (void)configureWithGridRow:(GridRow*)gridRow;

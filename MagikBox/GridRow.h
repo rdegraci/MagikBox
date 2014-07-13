@@ -10,4 +10,5 @@
 
 @interface GridRow : NSObject
 
+@property (nonatomic, strong) NSArray* gridRowItems;
 @end

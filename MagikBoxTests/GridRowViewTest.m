@@ -38,4 +38,5 @@
 - (void)testShouldHaveGridRow {
     self.gridRowView.gridRow = [[GridRow alloc] init];
 }
+
 @end

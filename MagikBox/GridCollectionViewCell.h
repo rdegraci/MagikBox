@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class GridItem;
+
 @interface GridCollectionViewCell : UICollectionViewCell
+
+@property (nonatomic, strong) GridItem* gridItem;
+
+- (void)assertValid;
+- (void)configureWithGridItem:(GridItem*)gridItem;
 
 @end

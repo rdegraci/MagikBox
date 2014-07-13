@@ -29,11 +29,6 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-    // UXCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
-}
-
 
 - (void)testShouldHaveRows {
     self.grid.rows = @5;

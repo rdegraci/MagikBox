@@ -28,4 +28,13 @@
 }
 */
 
+- (void)configureWithGridItem:(GridItem *)gridItem {
+    self.gridItem = gridItem;
+    [self assertValid];
+}
+
+- (void)assertValid {
+    
+}
+
 @end

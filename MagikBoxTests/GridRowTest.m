@@ -9,6 +9,7 @@
 #import <XCTest/XCTest.h>
 #import "GridRow.h"
 
+
 @interface GridRowTest : XCTestCase
 
 @property (nonatomic, strong) GridRow* gridRow;
@@ -29,5 +30,7 @@
     [super tearDown];
 }
 
-
+- (void)testShouldHaveGridItems {
+    self.gridRow.gridRowItems = [NSArray array];
+}
 @end

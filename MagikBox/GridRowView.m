@@ -34,7 +34,7 @@
 }
 
 - (void)assertValid {
-    
+    NSAssert(self.collectionView != nil, @"collectionView should not be nil");
 }
 
 @end

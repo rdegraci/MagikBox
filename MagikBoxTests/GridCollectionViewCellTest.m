@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import "GridCollectionViewCell.h"
+#import "GridItem.h"
 
 @interface GridCollectionViewCellTest : XCTestCase
 
@@ -29,6 +30,9 @@
     [super tearDown];
 }
 
+- (void)testShouldHaveGridItem {
+    self.gridCollectionViewCell.gridItem = [[GridItem alloc] init];
+}
 
 
 @end
