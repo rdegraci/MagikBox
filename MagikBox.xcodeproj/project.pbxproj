@@ -20,6 +20,12 @@
 		B35B4A201970B54100000DE1 /* GridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A1E1970B54100000DE1 /* GridViewController.m */; };
 		B35B4A221970C0A000000DE1 /* IPad_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35B4A211970C0A000000DE1 /* IPad_Storyboard.storyboard */; };
 		B35B4A231970C0A000000DE1 /* IPad_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35B4A211970C0A000000DE1 /* IPad_Storyboard.storyboard */; };
+		B35B4A251971B91B00000DE1 /* GridRowViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A241971B91B00000DE1 /* GridRowViewTest.m */; };
+		B35B4A281971EC1C00000DE1 /* GridRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A271971EC1C00000DE1 /* GridRowView.m */; };
+		B35B4A291971EC1C00000DE1 /* GridRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A271971EC1C00000DE1 /* GridRowView.m */; };
+		B35B4A2B1972A3B500000DE1 /* GridRowTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A2A1972A3B500000DE1 /* GridRowTest.m */; };
+		B35B4A2E1972A3EF00000DE1 /* GridRow.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A2D1972A3EF00000DE1 /* GridRow.m */; };
+		B35B4A2F1972A3EF00000DE1 /* GridRow.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A2D1972A3EF00000DE1 /* GridRow.m */; };
 		B3B516031970259300E831E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516021970259300E831E5 /* Foundation.framework */; };
 		B3B516051970259300E831E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516041970259300E831E5 /* CoreGraphics.framework */; };
 		B3B516071970259300E831E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516061970259300E831E5 /* UIKit.framework */; };
@@ -59,6 +65,12 @@
 		B35B4A1D1970B54100000DE1 /* GridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridViewController.h; sourceTree = "<group>"; };
 		B35B4A1E1970B54100000DE1 /* GridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridViewController.m; sourceTree = "<group>"; };
 		B35B4A211970C0A000000DE1 /* IPad_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IPad_Storyboard.storyboard; sourceTree = "<group>"; };
+		B35B4A241971B91B00000DE1 /* GridRowViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridRowViewTest.m; sourceTree = "<group>"; };
+		B35B4A261971EC1C00000DE1 /* GridRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridRowView.h; sourceTree = "<group>"; };
+		B35B4A271971EC1C00000DE1 /* GridRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridRowView.m; sourceTree = "<group>"; };
+		B35B4A2A1972A3B500000DE1 /* GridRowTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridRowTest.m; sourceTree = "<group>"; };
+		B35B4A2C1972A3EF00000DE1 /* GridRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridRow.h; sourceTree = "<group>"; };
+		B35B4A2D1972A3EF00000DE1 /* GridRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridRow.m; sourceTree = "<group>"; };
 		B3B515FF1970259300E831E5 /* MagikBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagikBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B516021970259300E831E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3B516041970259300E831E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -160,6 +172,10 @@
 				B35B4A1D1970B54100000DE1 /* GridViewController.h */,
 				B35B4A1E1970B54100000DE1 /* GridViewController.m */,
 				B35B4A211970C0A000000DE1 /* IPad_Storyboard.storyboard */,
+				B35B4A261971EC1C00000DE1 /* GridRowView.h */,
+				B35B4A271971EC1C00000DE1 /* GridRowView.m */,
+				B35B4A2C1972A3EF00000DE1 /* GridRow.h */,
+				B35B4A2D1972A3EF00000DE1 /* GridRow.m */,
 			);
 			path = MagikBox;
 			sourceTree = "<group>";
@@ -183,6 +199,8 @@
 				B35B4A0F1970ABD600000DE1 /* GridTest.m */,
 				B35B4A151970AD7C00000DE1 /* GridCollectionViewCellTest.m */,
 				B35B4A1B1970AF4100000DE1 /* GridViewControllerTest.m */,
+				B35B4A241971B91B00000DE1 /* GridRowViewTest.m */,
+				B35B4A2A1972A3B500000DE1 /* GridRowTest.m */,
 			);
 			path = MagikBoxTests;
 			sourceTree = "<group>";
@@ -296,6 +314,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B35B4A191970AEA500000DE1 /* GridCollectionViewCell.m in Sources */,
+				B35B4A281971EC1C00000DE1 /* GridRowView.m in Sources */,
+				B35B4A2E1972A3EF00000DE1 /* GridRow.m in Sources */,
 				B3B516151970259300E831E5 /* AppDelegate.m in Sources */,
 				B3B516111970259300E831E5 /* main.m in Sources */,
 				B3B516181970259400E831E5 /* MagikBox.xcdatamodeld in Sources */,
@@ -308,12 +328,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B35B4A291971EC1C00000DE1 /* GridRowView.m in Sources */,
+				B35B4A2F1972A3EF00000DE1 /* GridRow.m in Sources */,
 				B35B4A1A1970AEA500000DE1 /* GridCollectionViewCell.m in Sources */,
 				B35B4A161970AD7C00000DE1 /* GridCollectionViewCellTest.m in Sources */,
 				B3B5162E1970259400E831E5 /* MagikBoxTests.m in Sources */,
 				B35B4A201970B54100000DE1 /* GridViewController.m in Sources */,
 				B35B4A141970AC0E00000DE1 /* Grid.m in Sources */,
+				B35B4A251971B91B00000DE1 /* GridRowViewTest.m in Sources */,
 				B35B4A1C1970AF4100000DE1 /* GridViewControllerTest.m in Sources */,
+				B35B4A2B1972A3B500000DE1 /* GridRowTest.m in Sources */,
 				B35B4A101970ABD600000DE1 /* GridTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
