@@ -28,4 +28,13 @@
 }
 */
 
+- (void)configureWithGridRow:(GridRow *)gridRow {
+    self.gridRow = gridRow;
+    [self assertValid];
+}
+
+- (void)assertValid {
+    
+}
+
 @end

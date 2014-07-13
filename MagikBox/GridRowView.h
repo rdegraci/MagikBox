@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class GridRow;
+
 @interface GridRowView : UIView
+
+@property (nonatomic, strong) UICollectionView* collectionView;
+@property (nonatomic, strong) GridRow* gridRow;
+
+- (void)configureWithGridRow:(GridRow*)gridRow;
+- (void)assertValid;
 
 @end

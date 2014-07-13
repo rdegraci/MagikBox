@@ -7,9 +7,12 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "GridRowView.h"
+#import "GridRow.h"
 
 @interface GridRowViewTest : XCTestCase
 
+@property (nonatomic, strong) GridRowView* gridRowView;
 @end
 
 @implementation GridRowViewTest
@@ -17,7 +20,7 @@
 - (void)setUp
 {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    self.gridRowView = [[GridRowView alloc] init];
 }
 
 - (void)tearDown
@@ -26,9 +29,13 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+
+- (void)testShouldHaveCollectionView {
+    self.gridRowView.collectionView = nil;
 }
 
+
+- (void)testShouldHaveGridRow {
+    self.gridRowView.gridRow = [[GridRow alloc] init];
+}
 @end
