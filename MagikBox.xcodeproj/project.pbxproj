@@ -26,6 +26,9 @@
 		B35B4A2B1972A3B500000DE1 /* GridRowTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A2A1972A3B500000DE1 /* GridRowTest.m */; };
 		B35B4A2E1972A3EF00000DE1 /* GridRow.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A2D1972A3EF00000DE1 /* GridRow.m */; };
 		B35B4A2F1972A3EF00000DE1 /* GridRow.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A2D1972A3EF00000DE1 /* GridRow.m */; };
+		B35B4A311972A60600000DE1 /* GridItemTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A301972A60600000DE1 /* GridItemTest.m */; };
+		B35B4A341972A65300000DE1 /* GridItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A331972A65300000DE1 /* GridItem.m */; };
+		B35B4A351972A65300000DE1 /* GridItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B4A331972A65300000DE1 /* GridItem.m */; };
 		B3B516031970259300E831E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516021970259300E831E5 /* Foundation.framework */; };
 		B3B516051970259300E831E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516041970259300E831E5 /* CoreGraphics.framework */; };
 		B3B516071970259300E831E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B516061970259300E831E5 /* UIKit.framework */; };
@@ -71,6 +74,9 @@
 		B35B4A2A1972A3B500000DE1 /* GridRowTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridRowTest.m; sourceTree = "<group>"; };
 		B35B4A2C1972A3EF00000DE1 /* GridRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridRow.h; sourceTree = "<group>"; };
 		B35B4A2D1972A3EF00000DE1 /* GridRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridRow.m; sourceTree = "<group>"; };
+		B35B4A301972A60600000DE1 /* GridItemTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridItemTest.m; sourceTree = "<group>"; };
+		B35B4A321972A65300000DE1 /* GridItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridItem.h; sourceTree = "<group>"; };
+		B35B4A331972A65300000DE1 /* GridItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridItem.m; sourceTree = "<group>"; };
 		B3B515FF1970259300E831E5 /* MagikBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagikBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B516021970259300E831E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3B516041970259300E831E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -176,6 +182,8 @@
 				B35B4A271971EC1C00000DE1 /* GridRowView.m */,
 				B35B4A2C1972A3EF00000DE1 /* GridRow.h */,
 				B35B4A2D1972A3EF00000DE1 /* GridRow.m */,
+				B35B4A321972A65300000DE1 /* GridItem.h */,
+				B35B4A331972A65300000DE1 /* GridItem.m */,
 			);
 			path = MagikBox;
 			sourceTree = "<group>";
@@ -201,6 +209,7 @@
 				B35B4A1B1970AF4100000DE1 /* GridViewControllerTest.m */,
 				B35B4A241971B91B00000DE1 /* GridRowViewTest.m */,
 				B35B4A2A1972A3B500000DE1 /* GridRowTest.m */,
+				B35B4A301972A60600000DE1 /* GridItemTest.m */,
 			);
 			path = MagikBoxTests;
 			sourceTree = "<group>";
@@ -315,6 +324,7 @@
 			files = (
 				B35B4A191970AEA500000DE1 /* GridCollectionViewCell.m in Sources */,
 				B35B4A281971EC1C00000DE1 /* GridRowView.m in Sources */,
+				B35B4A341972A65300000DE1 /* GridItem.m in Sources */,
 				B35B4A2E1972A3EF00000DE1 /* GridRow.m in Sources */,
 				B3B516151970259300E831E5 /* AppDelegate.m in Sources */,
 				B3B516111970259300E831E5 /* main.m in Sources */,
@@ -330,8 +340,10 @@
 			files = (
 				B35B4A291971EC1C00000DE1 /* GridRowView.m in Sources */,
 				B35B4A2F1972A3EF00000DE1 /* GridRow.m in Sources */,
+				B35B4A311972A60600000DE1 /* GridItemTest.m in Sources */,
 				B35B4A1A1970AEA500000DE1 /* GridCollectionViewCell.m in Sources */,
 				B35B4A161970AD7C00000DE1 /* GridCollectionViewCellTest.m in Sources */,
+				B35B4A351972A65300000DE1 /* GridItem.m in Sources */,
 				B3B5162E1970259400E831E5 /* MagikBoxTests.m in Sources */,
 				B35B4A201970B54100000DE1 /* GridViewController.m in Sources */,
 				B35B4A141970AC0E00000DE1 /* Grid.m in Sources */,
